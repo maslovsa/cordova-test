@@ -16,6 +16,35 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+function onRecievePushNotification(params){
+    alert("Message id - " + params.rkMsgId);
+    
+    var success = function(message) {
+
+    }
+    
+    var failure = function() {
+
+    }
+    
+    rokomobi.addEvent({name: "PUSH - " + params.rkMsgId}, success, failure);
+}
+
+function onHandleDeepLink(message){
+    var text =  message.name + ' - name \n'
+    + message.createDate + ' - createDate \n'
+    + message.updateDate + ' - updateDate \n'
+    + message.shareChannel + ' - shareChannel \n'
+    + message.vanityLink + ' - vanityLink \n'
+    + message.customDomainLink + ' - customDomainLink \n'
+    + message.type + ' - type \n'
+    + message.referralCode + ' - referralCode \n'
+    + message.promoCode + ' - promoCode \n'
+    console.log(text);
+    alert("onHandleDeepLink");
+}
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -34,25 +63,17 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        
-        rokomobi.setUser({userName: "tony_hawk_pro"});
-        
+
         var success = function(message) {
-            var text =  message.applicability + ' - applicability \n'
-            + message.startDate + ' - startDate \n'
-            + message.endDate + ' - endDate \n'
-            + message.isAlwaysActive + ' - isAlwaysActive \n'
-            + message.isSingleUseOnly + ' - isSingleUseOnly \n'
-            + message.autoApplyOnAppOpen + ' - autoApplyOnAppOpen \n'
-            + message.cannotBeCombined + ' - cannotBeCombined \n'
-            console.log(message);
-            alert("type " + message.type + " limit = " + message.limit);
+            alert(message);
         }
-        var failure = function(error) {
-            var errorText =  "Error calling Roko Plugin" + error
-            console.log(errorText);
+
+        var failure = function() {
+            alert("Error calling");
         }
-        rokomobi.loadPromo("KZF629BA", success, failure);
+
+        rokomobi.setUser({userName: "tony_hawk"}, success, failure);
+        rokomobi.addEvent({name: "My first event"}, success, failure);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

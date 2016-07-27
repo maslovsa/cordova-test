@@ -52,8 +52,8 @@
     "dependent_plugins": {},
     "modules": [
         {
-            "id": "com.rokolabs.rokomobi.rokomobi",
             "file": "plugins/com.rokolabs.rokomobi/www/rokomobi.js",
+            "id": "com.rokolabs.rokomobi.rokomobi",
             "pluginId": "com.rokolabs.rokomobi",
             "clobbers": [
                 "rokomobi"
