@@ -5,48 +5,49 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
+		01162D3E7E6F41B7A0C58A8F /* EKPropertyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7001B450734CDAA2F2D095 /* EKPropertyHelper.m */; };
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		099FD06897AB41D8B73B942F /* RMPReferralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EA50EEB404C67936086B3 /* RMPReferralManager.m */; };
+		0FF7A8235DB44A45957E7AD3 /* EKMappingBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C69065EA89E94415997408FE /* EKMappingBlocks.m */; };
+		1007756A975D4D798C11F936 /* EKRelationshipMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 2370E555F3EF4EF4A77072C8 /* EKRelationshipMapping.m */; };
+		124ABD983EEE4641914533E1 /* ROKODiscountItem+ROKODiscountItemMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA06EB19C9CC4766834A7548 /* ROKODiscountItem+ROKODiscountItemMapper.m */; };
+		147D756C5B22456E83F5E414 /* NSDateFormatter+EasyMappingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC75B8A74BA1418DB4B07555 /* NSDateFormatter+EasyMappingAdditions.m */; };
+		183DE83A69C04763BA5646EB /* RMPPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC6F504E064697BDD35A11 /* RMPPushManager.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		26B6F93C503A4E1F934317E4 /* RMPLoggerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A93D901EC5647B5B71070F9 /* RMPLoggerManager.m */; };
+		2A3A9C2D85D7449DBFE99B27 /* RMPLinkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F94C11EBC2184E2E8D2BECEC /* RMPLinkManager.m */; };
+		2BEF8A61A6E941A18BAF8C82 /* ROKOLink+ROKOLinkMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3E0C17A0924BD7AE0B72B0 /* ROKOLink+ROKOLinkMapper.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */; };
 		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
 		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
-		8A8126D7FF2F471A964C7BAB /* RMPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B99C77F083F4C0FAF14845F /* RMPHelper.m */; };
-		2A3A9C2D85D7449DBFE99B27 /* RMPLinkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F94C11EBC2184E2E8D2BECEC /* RMPLinkManager.m */; };
-		D089C75CB503454F8CC3F348 /* RMPShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52170E4D1DB541409E2DDCA5 /* RMPShareManager.m */; };
-		26B6F93C503A4E1F934317E4 /* RMPLoggerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A93D901EC5647B5B71070F9 /* RMPLoggerManager.m */; };
-		F77E5919BE1F4574BDD03BA2 /* RMPPromoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB449F305AA44E8FAE1319F4 /* RMPPromoManager.m */; };
-		099FD06897AB41D8B73B942F /* RMPReferralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EA50EEB404C67936086B3 /* RMPReferralManager.m */; };
-		5E0C7D4B7D70449C919CDBFE /* RMPPortalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2BCB9FF8D849F0BCFE0218 /* RMPPortalManager.m */; };
-		183DE83A69C04763BA5646EB /* RMPPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC6F504E064697BDD35A11 /* RMPPushManager.m */; };
-		2BEF8A61A6E941A18BAF8C82 /* ROKOLink+ROKOLinkMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3E0C17A0924BD7AE0B72B0 /* ROKOLink+ROKOLinkMapper.m */; };
-		124ABD983EEE4641914533E1 /* ROKODiscountItem+ROKODiscountItemMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA06EB19C9CC4766834A7548 /* ROKODiscountItem+ROKODiscountItemMapper.m */; };
 		322FFDC2CA97421F9700AC40 /* ROKOPromoDiscountItem+ROKOPromoDiscountItemMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F62E23DBB0F4D3098D8F832 /* ROKOPromoDiscountItem+ROKOPromoDiscountItemMapper.m */; };
 		40E03B99AE2549869D51460A /* ROKOReferralDiscountItem+ROKOReferralDiscountItemMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 95683EE762694D0CADA0ACBA /* ROKOReferralDiscountItem+ROKOReferralDiscountItemMapper.m */; };
-		838E63B69A014FD089643FE2 /* ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E97DA84C5F6741DB9E04AF3F /* ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.m */; };
-		D0C3833EACCF4AE9A1233248 /* ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD980B83C2CC448DB07A3108 /* ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.m */; };
-		C7C20FA40B324F77B531B4C4 /* ROKOPortalInfo+ROKOPortalInfoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FF0050EAC4530AE55D2E4 /* ROKOPortalInfo+ROKOPortalInfoMapper.m */; };
 		5B2458C5A9684206A809546B /* ROKOUserObject+ROKOUserObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C465791F433945248EE58039 /* ROKOUserObject+ROKOUserObjectMapper.m */; };
-		F5137BFA6B7844D88EE1770B /* ROKOSessionInfo+ROKOSessionInfoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EB773A292B2B49B29E2E9B17 /* ROKOSessionInfo+ROKOSessionInfoMapper.m */; };
-		B8C3C756654C48DA90CF3F19 /* EKCoreDataImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A822011F304CAF97993E6B /* EKCoreDataImporter.m */; };
-		932A0C3D5FBD4896949BA4A5 /* EKManagedObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAA8889AD9D4A408E2ECEBE /* EKManagedObjectMapper.m */; };
-		D5685537DD304702BB6DA305 /* EKManagedObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431DF310CC44D81AA818FC8 /* EKManagedObjectMapping.m */; };
-		BCAB85B4C179468B868AD9B4 /* EKManagedObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAE55DAF8640D6A470ABBD /* EKManagedObjectModel.m */; };
-		B8398A6388BE40A69864AFD8 /* EKMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3D8D174AA04C789DAD02EC /* EKMapper.m */; };
-		0FF7A8235DB44A45957E7AD3 /* EKMappingBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C69065EA89E94415997408FE /* EKMappingBlocks.m */; };
-		B4D4AF9379DC43B5848018EA /* EKObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D90178F7EC488BB89BEC72 /* EKObjectMapping.m */; };
 		5C366DC0F61B4EBD989A46F8 /* EKObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7AB6585F94EA48060F53D /* EKObjectModel.m */; };
-		01162D3E7E6F41B7A0C58A8F /* EKPropertyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7001B450734CDAA2F2D095 /* EKPropertyHelper.m */; };
-		887630C350004C048B4D4F65 /* EKPropertyMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 341AA2DC7C0E48A8B385BDFF /* EKPropertyMapping.m */; };
-		1007756A975D4D798C11F936 /* EKRelationshipMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 2370E555F3EF4EF4A77072C8 /* EKRelationshipMapping.m */; };
-		7B9AE16C7E47473E8C0CB064 /* EKSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A32D77D6F94DF4A40F57A8 /* EKSerializer.m */; };
-		E5F3C129971448819140C791 /* NSArray+FlattenArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 324519D0A75C4D2680DE4172 /* NSArray+FlattenArray.m */; };
-		147D756C5B22456E83F5E414 /* NSDateFormatter+EasyMappingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC75B8A74BA1418DB4B07555 /* NSDateFormatter+EasyMappingAdditions.m */; };
+		5E0C7D4B7D70449C919CDBFE /* RMPPortalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2BCB9FF8D849F0BCFE0218 /* RMPPortalManager.m */; };
 		69B6F9504DED48108376F0AA /* ROKOMobi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AE578235C74892BB683117 /* ROKOMobi.framework */; };
+		7B9AE16C7E47473E8C0CB064 /* EKSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A32D77D6F94DF4A40F57A8 /* EKSerializer.m */; };
+		838E63B69A014FD089643FE2 /* ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E97DA84C5F6741DB9E04AF3F /* ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.m */; };
+		887630C350004C048B4D4F65 /* EKPropertyMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 341AA2DC7C0E48A8B385BDFF /* EKPropertyMapping.m */; };
+		8A8126D7FF2F471A964C7BAB /* RMPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B99C77F083F4C0FAF14845F /* RMPHelper.m */; };
+		932A0C3D5FBD4896949BA4A5 /* EKManagedObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAA8889AD9D4A408E2ECEBE /* EKManagedObjectMapper.m */; };
+		B4D4AF9379DC43B5848018EA /* EKObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D90178F7EC488BB89BEC72 /* EKObjectMapping.m */; };
+		B8398A6388BE40A69864AFD8 /* EKMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3D8D174AA04C789DAD02EC /* EKMapper.m */; };
+		B8C3C756654C48DA90CF3F19 /* EKCoreDataImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A822011F304CAF97993E6B /* EKCoreDataImporter.m */; };
+		BCAB85B4C179468B868AD9B4 /* EKManagedObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAE55DAF8640D6A470ABBD /* EKManagedObjectModel.m */; };
+		C7C20FA40B324F77B531B4C4 /* ROKOPortalInfo+ROKOPortalInfoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FF0050EAC4530AE55D2E4 /* ROKOPortalInfo+ROKOPortalInfoMapper.m */; };
+		D089C75CB503454F8CC3F348 /* RMPShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52170E4D1DB541409E2DDCA5 /* RMPShareManager.m */; };
+		D0C3833EACCF4AE9A1233248 /* ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD980B83C2CC448DB07A3108 /* ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.m */; };
+		D5685537DD304702BB6DA305 /* EKManagedObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431DF310CC44D81AA818FC8 /* EKManagedObjectMapping.m */; };
+		E5F3C129971448819140C791 /* NSArray+FlattenArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 324519D0A75C4D2680DE4172 /* NSArray+FlattenArray.m */; };
+		F5137BFA6B7844D88EE1770B /* ROKOSessionInfo+ROKOSessionInfoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EB773A292B2B49B29E2E9B17 /* ROKOSessionInfo+ROKOSessionInfoMapper.m */; };
+		F77E5919BE1F4574BDD03BA2 /* RMPPromoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB449F305AA44E8FAE1319F4 /* RMPPromoManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,90 +68,90 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "HelloCordova/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HelloCordova/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		0D14A96FC23644A889E134D4 /* NSDateFormatter+EasyMappingAdditions.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+EasyMappingAdditions.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/NSDateFormatter+EasyMappingAdditions.h"; sourceTree = "<group>"; };
+		0D8CA26D502D4B2C823131B8 /* ROKOPortalInfo+ROKOPortalInfoMapper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "ROKOPortalInfo+ROKOPortalInfoMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOPortalInfo+ROKOPortalInfoMapper.h"; sourceTree = "<group>"; };
+		0E61FA6608D941FCAAF62257 /* EKMappingProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EKMappingProtocol.h; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKMappingProtocol.h; sourceTree = "<group>"; };
+		115A24FB479F4012920CB9B7 /* EKSerializer.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EKSerializer.h; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKSerializer.h; sourceTree = "<group>"; };
+		1B32DF85014B46CA9CDA31C1 /* EKRelationshipMapping.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EKRelationshipMapping.h; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKRelationshipMapping.h; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* HelloCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloCordova.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* HelloCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCordova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2370E555F3EF4EF4A77072C8 /* EKRelationshipMapping.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = EKRelationshipMapping.m; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKRelationshipMapping.m; sourceTree = "<group>"; };
+		2655909A18F84C52B1A2F9F9 /* ROKOLink+ROKOLinkMapper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "ROKOLink+ROKOLinkMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOLink+ROKOLinkMapper.h"; sourceTree = "<group>"; };
+		28A822011F304CAF97993E6B /* EKCoreDataImporter.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = EKCoreDataImporter.m; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKCoreDataImporter.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D3491FE58D84BC5A3AE8E98 /* EKObjectModel.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EKObjectModel.h; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKObjectModel.h; sourceTree = "<group>"; };
+		2DEAE55DAF8640D6A470ABBD /* EKManagedObjectModel.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = EKManagedObjectModel.m; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKManagedObjectModel.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = cordova/build-debug.xcconfig; sourceTree = SOURCE_ROOT; };
-		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = cordova/build-release.xcconfig; sourceTree = SOURCE_ROOT; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
+		324519D0A75C4D2680DE4172 /* NSArray+FlattenArray.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FlattenArray.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/NSArray+FlattenArray.m"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* HelloCordova-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HelloCordova-Prefix.pch"; sourceTree = "<group>"; };
+		341AA2DC7C0E48A8B385BDFF /* EKPropertyMapping.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = EKPropertyMapping.m; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKPropertyMapping.m; sourceTree = "<group>"; };
+		3972834EB7CE4879A911C3A8 /* EKObjectMapping.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EKObjectMapping.h; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKObjectMapping.h; sourceTree = "<group>"; };
+		3CE02DF62425406AB0A4C0B2 /* ROKOPromoDiscountItem+ROKOPromoDiscountItemMapper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "ROKOPromoDiscountItem+ROKOPromoDiscountItemMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOPromoDiscountItem+ROKOPromoDiscountItemMapper.h"; sourceTree = "<group>"; };
+		46F32E881A03479F8598FED0 /* EKManagedObjectMapping.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EKManagedObjectMapping.h; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKManagedObjectMapping.h; sourceTree = "<group>"; };
+		46F923AB8BDB464582DCCCAD /* ROKOUserObject+ROKOUserObjectMapper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "ROKOUserObject+ROKOUserObjectMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOUserObject+ROKOUserObjectMapper.h"; sourceTree = "<group>"; };
+		4E5EE6B368C94C15A544A435 /* RMPShareManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RMPShareManager.h; path = com.rokolabs.rokomobi/RokoMobi/RMPShareManager.h; sourceTree = "<group>"; };
+		52170E4D1DB541409E2DDCA5 /* RMPShareManager.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RMPShareManager.m; path = com.rokolabs.rokomobi/RokoMobi/RMPShareManager.m; sourceTree = "<group>"; };
+		546B3B58D0F3438F88ACE431 /* RMPLinkManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RMPLinkManager.h; path = com.rokolabs.rokomobi/RokoMobi/RMPLinkManager.h; sourceTree = "<group>"; };
+		5B6D24C551214B37BFD61A8E /* RMPLoggerManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RMPLoggerManager.h; path = com.rokolabs.rokomobi/RokoMobi/RMPLoggerManager.h; sourceTree = "<group>"; };
+		5F62E23DBB0F4D3098D8F832 /* ROKOPromoDiscountItem+ROKOPromoDiscountItemMapper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "ROKOPromoDiscountItem+ROKOPromoDiscountItemMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOPromoDiscountItem+ROKOPromoDiscountItemMapper.m"; sourceTree = "<group>"; };
+		5F7001B450734CDAA2F2D095 /* EKPropertyHelper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = EKPropertyHelper.m; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKPropertyHelper.m; sourceTree = "<group>"; };
+		603876D28DE14412A3ADBCBE /* EKManagedObjectModel.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EKManagedObjectModel.h; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKManagedObjectModel.h; sourceTree = "<group>"; };
+		64CF2E2F8AB747AEBBEC6C29 /* ROKODiscountItem+ROKODiscountItemMapper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "ROKODiscountItem+ROKODiscountItemMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKODiscountItem+ROKODiscountItemMapper.h"; sourceTree = "<group>"; };
+		656969E5A5014CE48C3357A4 /* EKMapper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EKMapper.h; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKMapper.h; sourceTree = "<group>"; };
+		68BD444769744E8998177090 /* RMPPromoManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RMPPromoManager.h; path = com.rokolabs.rokomobi/RokoMobi/RMPPromoManager.h; sourceTree = "<group>"; };
+		7A76B8A072E84E98BBA21701 /* EKMappingBlocks.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EKMappingBlocks.h; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKMappingBlocks.h; sourceTree = "<group>"; };
+		7B99C77F083F4C0FAF14845F /* RMPHelper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RMPHelper.m; path = com.rokolabs.rokomobi/RokoMobi/RMPHelper.m; sourceTree = "<group>"; };
+		7BB7AB6585F94EA48060F53D /* EKObjectModel.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = EKObjectModel.m; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKObjectModel.m; sourceTree = "<group>"; };
+		7D3D8D174AA04C789DAD02EC /* EKMapper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = EKMapper.m; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKMapper.m; sourceTree = "<group>"; };
+		8431DF310CC44D81AA818FC8 /* EKManagedObjectMapping.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = EKManagedObjectMapping.m; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKManagedObjectMapping.m; sourceTree = "<group>"; };
+		87DD74854EFD4DB392E87F08 /* ROKOReferralDiscountItem+ROKOReferralDiscountItemMapper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "ROKOReferralDiscountItem+ROKOReferralDiscountItemMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOReferralDiscountItem+ROKOReferralDiscountItemMapper.h"; sourceTree = "<group>"; };
+		8B18C0537206463A960F7834 /* EKManagedObjectMapper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EKManagedObjectMapper.h; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKManagedObjectMapper.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelloCordova-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "HelloCordova-Info.plist"; path = "HelloCordova/HelloCordova-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		8D2BCB9FF8D849F0BCFE0218 /* RMPPortalManager.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RMPPortalManager.m; path = com.rokolabs.rokomobi/RokoMobi/RMPPortalManager.m; sourceTree = "<group>"; };
+		92FC6F504E064697BDD35A11 /* RMPPushManager.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RMPPushManager.m; path = com.rokolabs.rokomobi/RokoMobi/RMPPushManager.m; sourceTree = "<group>"; };
+		94319CFB3CB343448E37053E /* NSArray+FlattenArray.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "NSArray+FlattenArray.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/NSArray+FlattenArray.h"; sourceTree = "<group>"; };
+		95683EE762694D0CADA0ACBA /* ROKOReferralDiscountItem+ROKOReferralDiscountItemMapper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "ROKOReferralDiscountItem+ROKOReferralDiscountItemMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOReferralDiscountItem+ROKOReferralDiscountItemMapper.m"; sourceTree = "<group>"; };
+		95946EB50B21496890B3D5A9 /* ROKOSessionInfo+ROKOSessionInfoMapper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "ROKOSessionInfo+ROKOSessionInfoMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOSessionInfo+ROKOSessionInfoMapper.h"; sourceTree = "<group>"; };
+		9A93D901EC5647B5B71070F9 /* RMPLoggerManager.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RMPLoggerManager.m; path = com.rokolabs.rokomobi/RokoMobi/RMPLoggerManager.m; sourceTree = "<group>"; };
+		9C136059BCE4405DA3F52F23 /* EasyMapping.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EasyMapping.h; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EasyMapping.h; sourceTree = "<group>"; };
+		A1D90178F7EC488BB89BEC72 /* EKObjectMapping.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = EKObjectMapping.m; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKObjectMapping.m; sourceTree = "<group>"; };
+		A463FBF67D854541952E825D /* EKPropertyHelper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EKPropertyHelper.h; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKPropertyHelper.h; sourceTree = "<group>"; };
+		AAA56B79C1994743AE00F777 /* ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.h"; sourceTree = "<group>"; };
+		B0A32D77D6F94DF4A40F57A8 /* EKSerializer.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = EKSerializer.m; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKSerializer.m; sourceTree = "<group>"; };
+		BC75B8A74BA1418DB4B07555 /* NSDateFormatter+EasyMappingAdditions.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+EasyMappingAdditions.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/NSDateFormatter+EasyMappingAdditions.m"; sourceTree = "<group>"; };
+		C2A724F68ECE463789B36463 /* ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.h"; sourceTree = "<group>"; };
+		C3804BFF875D463FAADB2BD4 /* RMPReferralManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RMPReferralManager.h; path = com.rokolabs.rokomobi/RokoMobi/RMPReferralManager.h; sourceTree = "<group>"; };
+		C465791F433945248EE58039 /* ROKOUserObject+ROKOUserObjectMapper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "ROKOUserObject+ROKOUserObjectMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOUserObject+ROKOUserObjectMapper.m"; sourceTree = "<group>"; };
+		C599F9CA615E4F40A8B2ECD7 /* EKPropertyMapping.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EKPropertyMapping.h; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKPropertyMapping.h; sourceTree = "<group>"; };
+		C69065EA89E94415997408FE /* EKMappingBlocks.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = EKMappingBlocks.m; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKMappingBlocks.m; sourceTree = "<group>"; };
+		CD980B83C2CC448DB07A3108 /* ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.m"; sourceTree = "<group>"; };
+		CFAC6211725643FB96783026 /* EKCoreDataImporter.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EKCoreDataImporter.h; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKCoreDataImporter.h; sourceTree = "<group>"; };
+		D3182670B6044AA9A1D04DCA /* RMPPortalManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RMPPortalManager.h; path = com.rokolabs.rokomobi/RokoMobi/RMPPortalManager.h; sourceTree = "<group>"; };
+		D41755903DF34C998485FC28 /* RMPPushManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RMPPushManager.h; path = com.rokolabs.rokomobi/RokoMobi/RMPPushManager.h; sourceTree = "<group>"; };
+		D7AE578235C74892BB683117 /* ROKOMobi.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = ROKOMobi.framework; path = HelloCordova/Plugins/com.rokolabs.rokomobi/ROKOMobi.framework; sourceTree = "<group>"; };
+		DC3EA50EEB404C67936086B3 /* RMPReferralManager.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RMPReferralManager.m; path = com.rokolabs.rokomobi/RokoMobi/RMPReferralManager.m; sourceTree = "<group>"; };
+		E32FF0050EAC4530AE55D2E4 /* ROKOPortalInfo+ROKOPortalInfoMapper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "ROKOPortalInfo+ROKOPortalInfoMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOPortalInfo+ROKOPortalInfoMapper.m"; sourceTree = "<group>"; };
+		E97DA84C5F6741DB9E04AF3F /* ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.m"; sourceTree = "<group>"; };
+		EAAA8889AD9D4A408E2ECEBE /* EKManagedObjectMapper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = EKManagedObjectMapper.m; path = com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKManagedObjectMapper.m; sourceTree = "<group>"; };
+		EB773A292B2B49B29E2E9B17 /* ROKOSessionInfo+ROKOSessionInfoMapper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "ROKOSessionInfo+ROKOSessionInfoMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOSessionInfo+ROKOSessionInfoMapper.m"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "HelloCordova/config.xml"; sourceTree = "<group>"; };
-		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		7B99C77F083F4C0FAF14845F /* RMPHelper.m */ = {isa = PBXFileReference; name = "RMPHelper.m"; path = "com.rokolabs.rokomobi/RokoMobi/RMPHelper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		F94C11EBC2184E2E8D2BECEC /* RMPLinkManager.m */ = {isa = PBXFileReference; name = "RMPLinkManager.m"; path = "com.rokolabs.rokomobi/RokoMobi/RMPLinkManager.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		52170E4D1DB541409E2DDCA5 /* RMPShareManager.m */ = {isa = PBXFileReference; name = "RMPShareManager.m"; path = "com.rokolabs.rokomobi/RokoMobi/RMPShareManager.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		9A93D901EC5647B5B71070F9 /* RMPLoggerManager.m */ = {isa = PBXFileReference; name = "RMPLoggerManager.m"; path = "com.rokolabs.rokomobi/RokoMobi/RMPLoggerManager.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		FB449F305AA44E8FAE1319F4 /* RMPPromoManager.m */ = {isa = PBXFileReference; name = "RMPPromoManager.m"; path = "com.rokolabs.rokomobi/RokoMobi/RMPPromoManager.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		DC3EA50EEB404C67936086B3 /* RMPReferralManager.m */ = {isa = PBXFileReference; name = "RMPReferralManager.m"; path = "com.rokolabs.rokomobi/RokoMobi/RMPReferralManager.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		8D2BCB9FF8D849F0BCFE0218 /* RMPPortalManager.m */ = {isa = PBXFileReference; name = "RMPPortalManager.m"; path = "com.rokolabs.rokomobi/RokoMobi/RMPPortalManager.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		92FC6F504E064697BDD35A11 /* RMPPushManager.m */ = {isa = PBXFileReference; name = "RMPPushManager.m"; path = "com.rokolabs.rokomobi/RokoMobi/RMPPushManager.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		FD3E0C17A0924BD7AE0B72B0 /* ROKOLink+ROKOLinkMapper.m */ = {isa = PBXFileReference; name = "ROKOLink+ROKOLinkMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOLink+ROKOLinkMapper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		FA06EB19C9CC4766834A7548 /* ROKODiscountItem+ROKODiscountItemMapper.m */ = {isa = PBXFileReference; name = "ROKODiscountItem+ROKODiscountItemMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKODiscountItem+ROKODiscountItemMapper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		5F62E23DBB0F4D3098D8F832 /* ROKOPromoDiscountItem+ROKOPromoDiscountItemMapper.m */ = {isa = PBXFileReference; name = "ROKOPromoDiscountItem+ROKOPromoDiscountItemMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOPromoDiscountItem+ROKOPromoDiscountItemMapper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		95683EE762694D0CADA0ACBA /* ROKOReferralDiscountItem+ROKOReferralDiscountItemMapper.m */ = {isa = PBXFileReference; name = "ROKOReferralDiscountItem+ROKOReferralDiscountItemMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOReferralDiscountItem+ROKOReferralDiscountItemMapper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		E97DA84C5F6741DB9E04AF3F /* ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.m */ = {isa = PBXFileReference; name = "ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		CD980B83C2CC448DB07A3108 /* ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.m */ = {isa = PBXFileReference; name = "ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		E32FF0050EAC4530AE55D2E4 /* ROKOPortalInfo+ROKOPortalInfoMapper.m */ = {isa = PBXFileReference; name = "ROKOPortalInfo+ROKOPortalInfoMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOPortalInfo+ROKOPortalInfoMapper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		C465791F433945248EE58039 /* ROKOUserObject+ROKOUserObjectMapper.m */ = {isa = PBXFileReference; name = "ROKOUserObject+ROKOUserObjectMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOUserObject+ROKOUserObjectMapper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		EB773A292B2B49B29E2E9B17 /* ROKOSessionInfo+ROKOSessionInfoMapper.m */ = {isa = PBXFileReference; name = "ROKOSessionInfo+ROKOSessionInfoMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOSessionInfo+ROKOSessionInfoMapper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		28A822011F304CAF97993E6B /* EKCoreDataImporter.m */ = {isa = PBXFileReference; name = "EKCoreDataImporter.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKCoreDataImporter.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		EAAA8889AD9D4A408E2ECEBE /* EKManagedObjectMapper.m */ = {isa = PBXFileReference; name = "EKManagedObjectMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKManagedObjectMapper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		8431DF310CC44D81AA818FC8 /* EKManagedObjectMapping.m */ = {isa = PBXFileReference; name = "EKManagedObjectMapping.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKManagedObjectMapping.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		2DEAE55DAF8640D6A470ABBD /* EKManagedObjectModel.m */ = {isa = PBXFileReference; name = "EKManagedObjectModel.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKManagedObjectModel.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		7D3D8D174AA04C789DAD02EC /* EKMapper.m */ = {isa = PBXFileReference; name = "EKMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKMapper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		C69065EA89E94415997408FE /* EKMappingBlocks.m */ = {isa = PBXFileReference; name = "EKMappingBlocks.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKMappingBlocks.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		A1D90178F7EC488BB89BEC72 /* EKObjectMapping.m */ = {isa = PBXFileReference; name = "EKObjectMapping.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKObjectMapping.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		7BB7AB6585F94EA48060F53D /* EKObjectModel.m */ = {isa = PBXFileReference; name = "EKObjectModel.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKObjectModel.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		5F7001B450734CDAA2F2D095 /* EKPropertyHelper.m */ = {isa = PBXFileReference; name = "EKPropertyHelper.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKPropertyHelper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		341AA2DC7C0E48A8B385BDFF /* EKPropertyMapping.m */ = {isa = PBXFileReference; name = "EKPropertyMapping.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKPropertyMapping.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		2370E555F3EF4EF4A77072C8 /* EKRelationshipMapping.m */ = {isa = PBXFileReference; name = "EKRelationshipMapping.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKRelationshipMapping.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		B0A32D77D6F94DF4A40F57A8 /* EKSerializer.m */ = {isa = PBXFileReference; name = "EKSerializer.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKSerializer.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		324519D0A75C4D2680DE4172 /* NSArray+FlattenArray.m */ = {isa = PBXFileReference; name = "NSArray+FlattenArray.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/NSArray+FlattenArray.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		BC75B8A74BA1418DB4B07555 /* NSDateFormatter+EasyMappingAdditions.m */ = {isa = PBXFileReference; name = "NSDateFormatter+EasyMappingAdditions.m"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/NSDateFormatter+EasyMappingAdditions.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		F93E09238A02410F9A18D268 /* RMPHelper.h */ = {isa = PBXFileReference; name = "RMPHelper.h"; path = "com.rokolabs.rokomobi/RokoMobi/RMPHelper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		546B3B58D0F3438F88ACE431 /* RMPLinkManager.h */ = {isa = PBXFileReference; name = "RMPLinkManager.h"; path = "com.rokolabs.rokomobi/RokoMobi/RMPLinkManager.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		4E5EE6B368C94C15A544A435 /* RMPShareManager.h */ = {isa = PBXFileReference; name = "RMPShareManager.h"; path = "com.rokolabs.rokomobi/RokoMobi/RMPShareManager.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		5B6D24C551214B37BFD61A8E /* RMPLoggerManager.h */ = {isa = PBXFileReference; name = "RMPLoggerManager.h"; path = "com.rokolabs.rokomobi/RokoMobi/RMPLoggerManager.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		68BD444769744E8998177090 /* RMPPromoManager.h */ = {isa = PBXFileReference; name = "RMPPromoManager.h"; path = "com.rokolabs.rokomobi/RokoMobi/RMPPromoManager.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		C3804BFF875D463FAADB2BD4 /* RMPReferralManager.h */ = {isa = PBXFileReference; name = "RMPReferralManager.h"; path = "com.rokolabs.rokomobi/RokoMobi/RMPReferralManager.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		D3182670B6044AA9A1D04DCA /* RMPPortalManager.h */ = {isa = PBXFileReference; name = "RMPPortalManager.h"; path = "com.rokolabs.rokomobi/RokoMobi/RMPPortalManager.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		D41755903DF34C998485FC28 /* RMPPushManager.h */ = {isa = PBXFileReference; name = "RMPPushManager.h"; path = "com.rokolabs.rokomobi/RokoMobi/RMPPushManager.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		2655909A18F84C52B1A2F9F9 /* ROKOLink+ROKOLinkMapper.h */ = {isa = PBXFileReference; name = "ROKOLink+ROKOLinkMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOLink+ROKOLinkMapper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		64CF2E2F8AB747AEBBEC6C29 /* ROKODiscountItem+ROKODiscountItemMapper.h */ = {isa = PBXFileReference; name = "ROKODiscountItem+ROKODiscountItemMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKODiscountItem+ROKODiscountItemMapper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		3CE02DF62425406AB0A4C0B2 /* ROKOPromoDiscountItem+ROKOPromoDiscountItemMapper.h */ = {isa = PBXFileReference; name = "ROKOPromoDiscountItem+ROKOPromoDiscountItemMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOPromoDiscountItem+ROKOPromoDiscountItemMapper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		87DD74854EFD4DB392E87F08 /* ROKOReferralDiscountItem+ROKOReferralDiscountItemMapper.h */ = {isa = PBXFileReference; name = "ROKOReferralDiscountItem+ROKOReferralDiscountItemMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOReferralDiscountItem+ROKOReferralDiscountItemMapper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		C2A724F68ECE463789B36463 /* ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.h */ = {isa = PBXFileReference; name = "ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOReferralDiscountInfo+ROKOReferralDiscountInfoMapper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		AAA56B79C1994743AE00F777 /* ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.h */ = {isa = PBXFileReference; name = "ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOReferralCampaignInfo+ROKOReferralCampaignInfoMapper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		0D8CA26D502D4B2C823131B8 /* ROKOPortalInfo+ROKOPortalInfoMapper.h */ = {isa = PBXFileReference; name = "ROKOPortalInfo+ROKOPortalInfoMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOPortalInfo+ROKOPortalInfoMapper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		46F923AB8BDB464582DCCCAD /* ROKOUserObject+ROKOUserObjectMapper.h */ = {isa = PBXFileReference; name = "ROKOUserObject+ROKOUserObjectMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOUserObject+ROKOUserObjectMapper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		95946EB50B21496890B3D5A9 /* ROKOSessionInfo+ROKOSessionInfoMapper.h */ = {isa = PBXFileReference; name = "ROKOSessionInfo+ROKOSessionInfoMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOSessionInfo+ROKOSessionInfoMapper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		9C136059BCE4405DA3F52F23 /* EasyMapping.h */ = {isa = PBXFileReference; name = "EasyMapping.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EasyMapping.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		CFAC6211725643FB96783026 /* EKCoreDataImporter.h */ = {isa = PBXFileReference; name = "EKCoreDataImporter.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKCoreDataImporter.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		8B18C0537206463A960F7834 /* EKManagedObjectMapper.h */ = {isa = PBXFileReference; name = "EKManagedObjectMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKManagedObjectMapper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		46F32E881A03479F8598FED0 /* EKManagedObjectMapping.h */ = {isa = PBXFileReference; name = "EKManagedObjectMapping.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKManagedObjectMapping.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		603876D28DE14412A3ADBCBE /* EKManagedObjectModel.h */ = {isa = PBXFileReference; name = "EKManagedObjectModel.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKManagedObjectModel.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		656969E5A5014CE48C3357A4 /* EKMapper.h */ = {isa = PBXFileReference; name = "EKMapper.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKMapper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		7A76B8A072E84E98BBA21701 /* EKMappingBlocks.h */ = {isa = PBXFileReference; name = "EKMappingBlocks.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKMappingBlocks.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		0E61FA6608D941FCAAF62257 /* EKMappingProtocol.h */ = {isa = PBXFileReference; name = "EKMappingProtocol.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKMappingProtocol.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		3972834EB7CE4879A911C3A8 /* EKObjectMapping.h */ = {isa = PBXFileReference; name = "EKObjectMapping.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKObjectMapping.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		2D3491FE58D84BC5A3AE8E98 /* EKObjectModel.h */ = {isa = PBXFileReference; name = "EKObjectModel.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKObjectModel.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		A463FBF67D854541952E825D /* EKPropertyHelper.h */ = {isa = PBXFileReference; name = "EKPropertyHelper.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKPropertyHelper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		C599F9CA615E4F40A8B2ECD7 /* EKPropertyMapping.h */ = {isa = PBXFileReference; name = "EKPropertyMapping.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKPropertyMapping.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		1B32DF85014B46CA9CDA31C1 /* EKRelationshipMapping.h */ = {isa = PBXFileReference; name = "EKRelationshipMapping.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKRelationshipMapping.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		115A24FB479F4012920CB9B7 /* EKSerializer.h */ = {isa = PBXFileReference; name = "EKSerializer.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/EKSerializer.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		94319CFB3CB343448E37053E /* NSArray+FlattenArray.h */ = {isa = PBXFileReference; name = "NSArray+FlattenArray.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/NSArray+FlattenArray.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		0D14A96FC23644A889E134D4 /* NSDateFormatter+EasyMappingAdditions.h */ = {isa = PBXFileReference; name = "NSDateFormatter+EasyMappingAdditions.h"; path = "com.rokolabs.rokomobi/RokoMobi/EasyMapping/NSDateFormatter+EasyMappingAdditions.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		D7AE578235C74892BB683117 /* ROKOMobi.framework */ = {isa = PBXFileReference; name = "ROKOMobi.framework"; path = "HelloCordova/Plugins/com.rokolabs.rokomobi/ROKOMobi.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = HelloCordova/config.xml; sourceTree = "<group>"; };
+		F93E09238A02410F9A18D268 /* RMPHelper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RMPHelper.h; path = com.rokolabs.rokomobi/RokoMobi/RMPHelper.h; sourceTree = "<group>"; };
+		F94C11EBC2184E2E8D2BECEC /* RMPLinkManager.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RMPLinkManager.m; path = com.rokolabs.rokomobi/RokoMobi/RMPLinkManager.m; sourceTree = "<group>"; };
+		FA06EB19C9CC4766834A7548 /* ROKODiscountItem+ROKODiscountItemMapper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "ROKODiscountItem+ROKODiscountItemMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKODiscountItem+ROKODiscountItemMapper.m"; sourceTree = "<group>"; };
+		FB449F305AA44E8FAE1319F4 /* RMPPromoManager.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RMPPromoManager.m; path = com.rokolabs.rokomobi/RokoMobi/RMPPromoManager.m; sourceTree = "<group>"; };
+		FD3E0C17A0924BD7AE0B72B0 /* ROKOLink+ROKOLinkMapper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "ROKOLink+ROKOLinkMapper.m"; path = "com.rokolabs.rokomobi/RokoMobi/Mappers/ROKOLink+ROKOLinkMapper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +177,7 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 			);
 			name = Classes;
-			path = "HelloCordova/Classes";
+			path = HelloCordova/Classes;
 			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -212,7 +213,7 @@
 				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
 			);
 			name = "Other Sources";
-			path = "HelloCordova";
+			path = HelloCordova;
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -223,7 +224,7 @@
 				8D1107310486CEB800E47090 /* HelloCordova-Info.plist */,
 			);
 			name = Resources;
-			path = "HelloCordova/Resources";
+			path = HelloCordova/Resources;
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -321,7 +322,7 @@
 				0D14A96FC23644A889E134D4 /* NSDateFormatter+EasyMappingAdditions.h */,
 			);
 			name = Plugins;
-			path = "HelloCordova/Plugins";
+			path = HelloCordova/Plugins;
 			sourceTree = SOURCE_ROOT;
 		};
 		EB87FDF11871DA420020F90C /* Staging */ = {
@@ -350,8 +351,8 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = "HelloCordova";
-			productName = "HelloCordova";
+			name = HelloCordova;
+			productName = HelloCordova;
 			productReference = 1D6058910D05DD3D006BFB54 /* HelloCordova.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -363,10 +364,13 @@
 			attributes = {
 				LastUpgradeCheck = 510;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__NON-CLI__" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloCordova" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectReferences = (
@@ -488,6 +492,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"HelloCordova/Plugins/com.rokolabs.rokomobi\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -496,11 +504,7 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "HelloCordova/HelloCordova-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				PRODUCT_NAME = "HelloCordova";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"HelloCordova/Plugins/com.rokolabs.rokomobi\"",
-				);
+				PRODUCT_NAME = HelloCordova;
 			};
 			name = Debug;
 		};
@@ -514,16 +518,16 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"HelloCordova/Plugins/com.rokolabs.rokomobi\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloCordova/HelloCordova-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "HelloCordova/HelloCordova-Info.plist";
-				PRODUCT_NAME = "HelloCordova";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"HelloCordova/Plugins/com.rokolabs.rokomobi\"",
-				);
+				PRODUCT_NAME = HelloCordova;
 			};
 			name = Release;
 		};
@@ -590,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__NON-CLI__" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloCordova" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
